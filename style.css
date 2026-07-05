@@ -1,29 +1,76 @@
 /* Folha de estilo do site one page html5 e css3 @autor marco */
 
+/* Importação (Google fonts)*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* CSS RESET */
+*{
+    margin: 0;
+     border: 0;
+     padding:0;
+}
+
+
+body{
+     font-family: "Open Sans", sans-serif;
+     font-size: 1em;
+}
+
+/*  Layout */
+.Container {
+    margin: 0 auto;
+    background-color: #77ff00;
+}
+
 /* Smartphone Portrait >>>>>>>>>>>>>>>>*/
+
 /* Smartphone Landscape >>>>>>>>>>>>>>>>*/
+
 @media (min-width: 576px){
-    body{
+    body
+    {
         background-color: #0ff;
     } 
+    /* Layout */
+    .Container 
+    {
+        max-width: 540px;
+        }
+
 }
 /* Tablet Portrait >>>>>>>>>>>>>>>>*/
 @media (min-width: 768px){
     body{
         background-color: #ff0;
     } 
+    /* Layout */
+    .Container 
+    {
+        max-width: 720px;
+        }
 }
 /* Tablet Landscape >>>>>>>>>>>>>>>>*/
 @media (min-width: 992px){
     body{
         background-color: #ff6600;
     } 
+    /* Layout */
+    .Container 
+    {
+        max-width: 960px;
+        }
 }
-/* PC >>>>>>>>>>>>>>>>*/
+/* PC e Notebooks >>>>>>>>>>>>>>>>*/
 @media (min-width: 1200px){
     body{
         background-color: #ff0000;
     } 
+    /* Layout */
+    .Container 
+    {
+        max-width: 1140px;
+        }
 }
 
 
