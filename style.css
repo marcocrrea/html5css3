@@ -27,10 +27,14 @@ body{
     justify-content: space-between;
     
 }
-.Flex2 {
+.Flex2 {   /* Flex 2 é uma classe, assim como Flex */
     display: flex;
     align-items: center;
+}
 
+Flex3 {
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -163,6 +167,28 @@ main h2 /* heading tags*/
     margin-right: 10px;
 }
 
+/* One Page*/
+#onepage
+{
+    padding: 50px 10px;
+}
+#onepage h2 
+{
+    margin-bottom: 10px;
+
+}
+
+#onepage p {
+    margin-bottom: 25px;
+}
+
+#video iframe {
+    width: 340px;
+    height: 191px;
+    border: 0;
+
+}
+
 
 
 
@@ -180,6 +206,12 @@ main h2 /* heading tags*/
         main h1, main h2 {
             text-shadow: #000 0.05em 0.05em 0.05em; /* cria uma sombra na hading tag h1 e h2*/
         }
+
+        /* one page */
+        #video iframe {
+    width: 560px;
+    height: 315px;
+}
 
 }
 /* Tablet Portrait >>>>>>>>>>>>>>>>*/
@@ -258,7 +290,7 @@ main h2 /* heading tags*/
 
         /* Sobre */
         #sobre {
-           background-attachment: fixed; /* efeito paralax, fundo fica fixo
+           background-attachment: fixed; /* efeito paralax, fundo fica fixo */
         }
         #destaqueSobre{
             display: inline;
@@ -266,7 +298,14 @@ main h2 /* heading tags*/
 
         #destaqueSobre img {
             border-radius: 50%;
-            margin: right 50px;
+            margin-right: 50px;
+            
+        }
+
+        /* One Page*/
+        .Flex3 {
+            flex-direction: row;
+            align-items: center;
         }
 
         }
